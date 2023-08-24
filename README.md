@@ -1,5 +1,5 @@
 ![](Deforest1.jpg)
-# Analysis-of-Deforestation-on-Global-Forest-
+# ANALYSIS-OF-DEFORESTATION-ON-GLOBAL-FOREST
 2016 Data and Analysis to Reveal the Trends in Global Deforestation.
 
 ## Introduction
