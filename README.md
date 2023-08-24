@@ -6,7 +6,8 @@
 This repository serves as a pivotal hub for data-driven insights focused intently on the intricate dynamics and repercussions of global deforestation. I embarked on a comprehensive exploration into deforestation, recognizing it as one of the most paramount environmental challenges of our era. Through this data analysis, I delve deep into the nuances of deforestation, dissecting its patterns across nations, various income classifications, and regional landscapes. My primary goal is to illuminate the multifaceted dynamics of deforestation and derive actionable insights by addressing key questions
 
 ## Dataset 
-The dataset for this analysis is the 2016 global deforestation dataset thoughtfully curated by our instructor. This dataset is an invaluable resource composed of three distinct files, each formatted as comma-separated values (CSV). The files, namely "Forest Area," "Land Area," and "Region," provide a comprehensive snapshot of the intricate landscape of deforestation on a global scale.  Using the below syntax I was able to join the three data set together to have a better understanding of the dataset 
+The dataset for this analysis is the 2016 global deforestation dataset thoughtfully curated by our instructor. This dataset is an invaluable resource composed of three distinct files, each formatted as comma-separated values (CSV). The files, namely "Forest Area," "Land Area," and "Region," provide a comprehensive snapshot of the intricate landscape of deforestation on a global scale.  Using the below syntax I was able to join the three dataset together to have a better understanding of the dataset. 
+
 SELECT * FROM [forest_area ] F Join Land_Area L ON F.country_code = L.country_code Join [Regions ] R ON L.country_code = R.country_code
 
 ![](Dataset.jpg)
